@@ -1,14 +1,111 @@
+**********************************************************
+--A]to add files in local and remote repository
 1.add files on github
+----------------------------------------------------------
 2.at local right click on new folder open git bash here 
+----------------------------------------------------------
 3.inside gitbash cmnd=git init
+----------------------------------------------------------
 4.git clone (paste url from github)
+----------------------------------------------------------
 5.add any another file at remote i.e. github
+----------------------------------------------------------
 6.git pull (paste url from github)
+----------------------------------------------------------
 7.add file at local 
+----------------------------------------------------------
 8.git status---file at working
+----------------------------------------------------------
 9.git add . ---file at staging
+----------------------------------------------------------
 10.git commit -m 'any comment'
+----------------------------------------------------------
 11.git remote add origin (paste url from github)
+----------------------------------------------------------
 12.git push origin main/head/master
+----------------------------------------------------------
 13.files added at remote repo
+************************************************************
+--B]to create branches
+Every developer works on different different branches
+1-13 same as A]
+------------------------------------------------------------
+14.to create new branch 
+#command = git branch branchname--(create new branch in master branch)
+ex.git branch feature
+------------------------------------------------------------
+15.to jump in that branch
+#command=git checkout branchname
+ex.git checkout feature
+------------------------------------------------------------
+16.create file in feature branch
+#command=touch filname
+ex.touch python.csv
+------------------------------------------------------------
+17.jump into master branch
+#command=git checkout master
+
+------------------------------------------------------------
+18.to stagging area
+#command=git add .
+------------------------------------------------------------
+19.to remote repo
+#command=git commit -m 'comment'
+------------------------------------------------------------
+20.to check files
+#commands= git checkout master then ls
+           git checkout feature then ls
+------------------------------------------------------------
+21.to merge branch
+git checkout master
+#command= git merge feature
+------------------------------------------------------------
+22.to remote repo
+git remote add origin ======path 
+-------------------------------------------------------------
+23.git push origin master
+   git push origin feature
+-------------------------------------------------------------
+24.write content in file then
+git add.
+git status
+git reset
+git status
+git add.
+git commit -m 'testkdj'
+git reset --soft HEAD~1
+git status
+modified text
+git add.
+git commit -m 'sdkl'
+git status
+git reset --hard HEAD~1
+git status
+changes undo 
+git log to see changes 
+
+git reset --soft HEAD~2 ========2 commits back in stagging area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
